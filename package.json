@@ -1,12 +1,28 @@
 {
-    "name": "rsschool-codejam",
-    "version": "0.1.1",
-    "dependencies": {
-        "eslint-config-airbnb-base": "~13.1.0"
-    },
-    "devDependencies": {
-        "eslint": "^3.19.0",
-        "eslint-config-airbnb": "^17.1.0",
-        "eslint-plugin-react": "^7.11.1"
-    }
+  "name": "rsschool-codejam",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "dependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mill9r/rsschool-codejam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mill9r/rsschool-codejam/issues"
+  },
+  "homepage": "https://github.com/mill9r/rsschool-codejam#readme",
+  "eslintConfig": ".eslintrc.js"
 }
