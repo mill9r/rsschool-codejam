@@ -2,15 +2,15 @@
   "name": "rsschool-codejam",
   "version": "1.0.0",
   "description": "",
-  "main": ".eslintrc.js",
+  "main": ".eslintrc",
   "dependencies": {
+    "eslint": "^5.8.0",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint": "^3.19.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-react": "^7.11.1"
+    "install-peerdeps": "^1.9.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint-plugin-import": "^2.14.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,6 +23,5 @@
   "bugs": {
     "url": "https://github.com/mill9r/rsschool-codejam/issues"
   },
-  "homepage": "https://github.com/mill9r/rsschool-codejam#readme",
-  "eslintConfig": ".eslintrc.js"
+  "homepage": "https://github.com/mill9r/rsschool-codejam#readme"
 }
