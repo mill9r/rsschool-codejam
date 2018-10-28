@@ -82,7 +82,7 @@ describe('Summarize values', function () {
           'right': { 'value': 130 }
         }
       };
-      assert.equal(JSON.stringify([[100], [75, 120], [60, 99, 110, 130],[50]]), JSON.stringify(recursion(tree)));
+      assert.equal(JSON.stringify([[100], [75, 120], [60, 99, 110, 130], [50]]), JSON.stringify(recursion(tree)));
     });
 
   });
