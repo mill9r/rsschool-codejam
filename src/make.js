@@ -15,3 +15,5 @@ function make() {
   };
   return store.apply(undefined, arguments);
 }
+
+module.exports = make;

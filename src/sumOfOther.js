@@ -8,3 +8,5 @@ function sumOfOther(array) {
   );
   return result;
 }
+
+module.exports = sumOfOther;

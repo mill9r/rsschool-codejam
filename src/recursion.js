@@ -18,3 +18,5 @@ function iterate(binaryTree, i, res) {
       }
     });
 }
+
+module.exports = recursion;
